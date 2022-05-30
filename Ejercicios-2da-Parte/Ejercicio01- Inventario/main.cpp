@@ -73,7 +73,7 @@ void salidaDeInventario() {
     movimientoInventario(codigo, cantidad, "-");
 }
 
-void ajustesPositivos() {
+void ajustesPositivosDeInventario() {
     string codigo = "";
     int cantidad = 0;
 
@@ -91,7 +91,7 @@ void ajustesPositivos() {
     movimientoInventario(codigo, cantidad, "+");
 }
 
-void ajustesNegativos() {
+void ajustesNegativosDeInventario() {
     string codigo = "";
     int cantidad = 0;
 
@@ -144,10 +144,10 @@ int main(int argc, char const *argv[])
             salidaDeInventario();
             break;        
         case 4:
-            ajustesPositivos();
+            ajustesPositivosDeInventario();
             break;
         case 5:
-            ajustesNegativos();
+            ajustesNegativosDeInventario();
             break;
 
             
