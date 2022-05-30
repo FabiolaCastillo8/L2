@@ -1,0 +1,3 @@
+
+void mostrarAcumulados();
+void reporteAcumulados();
